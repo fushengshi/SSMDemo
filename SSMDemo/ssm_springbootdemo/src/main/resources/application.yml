@@ -1,0 +1,27 @@
+#spring:
+#  datasource:
+#    type: com.mchange.v2.c3p0.ComboPooledDataSource
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql:///mybatis?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8
+#    username: root
+#    password: 451982
+##    maxPoolSize: 20
+##    minPoolSize: 5
+##    InitialPoolSize: 8
+##    maxIdleTime: 60
+#
+#  mvc:
+#    view:
+#      prefix: /WEB-INF/pages/
+#      suffix: .jsp
+#
+#
+#mybatis:
+#  mapper-locations: classpath:mapper/*Mapper.xml
+#
+#server:
+#  servlet:
+#    jsp:
+#      init-parameters:
+#        development: true
+
